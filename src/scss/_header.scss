@@ -1,0 +1,46 @@
+.header{
+    width:$w;
+    height:120px;
+     background: $color;
+}
+img{
+    max-width: 100%;
+}
+.header .logo{
+    width:303px;
+    height:68px;
+    margin: 26px 0px 0px 40px;
+    float:left;
+}
+
+.header .logo2{
+    width:292px;
+    height:68px;
+    margin-top: 26px;
+    float:right;
+}
+.nav{
+    width:$w;
+    height:70px;
+    border-bottom: 1px solid #ddd;/*no*/
+}
+.nav ul li{
+    width:120px;
+    text-align: center;
+    height: 70px;
+    line-height: 70px;
+    display: inline-block;
+    position: relative;
+}
+.nav ul li a{
+    color:#000;
+    font-size: 26px;
+}
+.nav ul li i{
+    width: 2px;
+    height: 25px;
+    background: #ccc;
+    position: absolute;
+    right: 0px;
+    top:25px;
+}
